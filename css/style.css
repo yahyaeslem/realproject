@@ -1,62 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+}
 .header{
-font-size: 20PX;
-font-weight: #f9faf8;
+font-size: 24px;
+color:    #f9faf8;
 
 
 }
 .footer{
-display: flex;
+margin-top: auto;
 bottom: 0%;
-width: 100%;
-font-family: #1F2937;
-background-color:lightblue;
-margin: auto;
+
+font:  #E5E7EB;
+background-color:#1F2937
 
 }
 
 button{
-    display: flex;
+display: flex;
+background-color: transparent;
+color: white;
 flex-grow: 0;
-flex-shrink: 0;
-width: 90px;
+flex-shrink:0;
+padding: 0 13px;
+width: 75px;
+height: 35px;
+border-radius: 15px;
+
 align-items: center;
 justify-content: center;
-font-family: 'Courier New', Courier, monospace;
+
 }
 ul{
     display: flex;
+    font-size: 18px;
     gap: 16px;
-    
+    font-style:    #E5E7EB;
+    color: white;
     list-style: none;
     
 }
-.container{
+.container1{    
     display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    
+    color: white;
+    flex: 1;
+    margin-top: 0;
+    padding: 30px;
     flex-direction: row;
     justify-content: space-between;
-    background-color: lightblue;
-    width: auto;
-    gap: 16px;
-    margin-top: 0%;
+    background-color:#1f2937;
+    gap: 1px;
+    
+  
     
 }
+.img1{
+   
+ background-color: #303336;
 
-.container3{
-background-color: antiquewhite;
-display: flex;
-margin: 30px;
-padding: 30px;
-gap:16px;
-flex: 1;
+
+padding: 80px;
+margin: 80px;
 
 }
-.containerlast{
+.container2{
     display: flex;
-    margin: 30px;
-padding: 30px;
+    padding: 30px;
+    color: white;
+    flex-direction: row;
+    background-color:#1f2937;
+    justify-content: space-between;
+}
+
+
+
+.container3{
+display: flex;
+flex-direction: row;
+flex-wrap:nowrap;
+text-align: center;
+vertical-align:middle;
+justify-content: center;
 gap:16px;
-background-color: aqua;
+background-color: rgb(255, 255, 255);
+}
+.container4{
+    display: flex;
+    flex:1;
+    text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    gap:1px;
+    background-color: #E5E7EB; 
+    
+}
+.container5{
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 35px;
+    margin: 35px;
+    gap:30px;
+    background-color: #3882f6;
+    border-radius: 19px;
+}
+.img3{
+    width: auto;
+    padding: 40px;
+    margin: 30px;
+    height: 20px;
+    border-radius: 20px;
+    
+   
+    border-color: #3882f6;
+    border-style:groove
+    
+}
+.style1{
+    font-style:#F9FAF8  ;
 }
